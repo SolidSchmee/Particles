@@ -13,7 +13,7 @@ namespace Matrices
       a.resize(_rows);
 
     // resize inner vectors and intailize to 0
-      for (int i = 0; i < a.size();i++)
+      for (double i = 0.0; i < a.size();i++)
         {
           a[i].resize(_cols,0);
         } 
